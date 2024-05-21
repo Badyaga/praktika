@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://s1.1zoom.ru/big0/98/Men_Mountains_Quadcopter_Crag_Sitting_Backpack_579220_1280x853.jpg); /* Путь к изображению */
+    background-size: cover; 
+    background-position: center; 
+  }
+
+.form-container {
+    max-width: 400px;
+  margin: 200px auto 0; /* 100px - отступ сверху, auto - автоматическое центрирование по горизонтали, 0 - отступ снизу */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffffbb; /* Цвет фона формы */
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, button {
+    padding: 8px;
+    margin-top: 13px;
+  }
+  
+  button {
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    margin-right: 10px;
+    width: 100px; /* Для размера логотипа */
+    height: auto;
+  }
+  
+  h2{
+    text-align: center;
+  }
+
+  .remember-me {
+    display: flex;
+    align-items: center;
+}
+.remember-me input {
+    margin-right: 5px;
+}

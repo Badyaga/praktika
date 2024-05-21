@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(197, 197, 192, 0.459);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Добавлено justify-content: center для центрирования по горизонтали */
+}
+
+.images{
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1{
+    margin-left: 180px;
+    color: rgb(46 138 204);
+}
+
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #f8f8f8; /* Светло-серый фон для заголовка */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.search-container input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin-right: 5px; /* Отступ между полем ввода и кнопкой */
+    background-color: rgba(119, 191, 243, 0.37);
+}
+
+.search-container button {
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #007BFF; /* Синий цвет кнопки */
+    color: #fff; /* Белый цвет текста */
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #0056b3; /* Более темный синий цвет при наведении */
+}
+
+.nastr{
+    margin-right: 85px;
+}
+
+.set{
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(46 138 204);
+}
+
+.img{
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(77, 155, 211);
+    font-size: 20px;
+}
+
+.teor{
+    background-color: #007bffa4;
+    width: 30%;
+    margin: auto;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+h4{
+    font-size: 14px;
+    margin: 30px;
+}
+
+hr{
+    width: 60%;
+    height: 2px;
+    background: linear-gradient(to right, #ccc, #fff, #ccc);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+h5{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: rgb(77, 155, 211);
+    font-size: 20px;
+}
+
+.info{
+    background-color: #007bffa4;
+    width: 40%;
+    margin: auto;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+p{
+    text-align: center;
+}
+
+.video{
+    height: 300px;
+}
+
+.vid{
+    text-align: center;
+}
+
+.proverka{
+    margin: auto;
+    width: 40%;
+    height: auto;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+li{
+    font-size: 16px;
+    margin-left: 10%;
+    position: relative;
+}
+
+.end{
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    background: linear-gradient(green, white);
+    border: 1px solid black;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.end:active {
+    background: linear-gradient(white, green);
+}
+
+.container1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-md-4 {
+    width: 33.33%;
+    padding: 0 15px;
+  }
+  
+  h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #505861;
+  }
+  
+  footer{
+    background: linear-gradient(green, white);
+  
+    margin-top: 300px;
+  }
+  
+  .hop{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 1024px){
+    body{
+        margin: 0 auto;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .video{
+        height: 200px;
+    }
+
+    li{
+        font-size: 10px;
+    }
+
+    .end{
+        font-size: 10px;
+    }
+  }
+
+  @media (max-width: 768px){
+    body{
+        margin: 0 auto;
+    }
+
+    .img{
+        height: 200px;
+    }
+
+    h4{
+        font-size: 10px;
+    }
+
+    .teor{
+        width: 80%;
+    }
+
+    .info{
+        width: 80%;
+    }
+
+    .video{
+        height: 100px;
+    }
+
+    .proverka{
+        width: 80%;
+    }
+  }
+
+
+
+
+
